@@ -992,4 +992,4 @@ async def dmall(ctx, *, message: str="https://discord.gg/PKR7nM9j9U"):
 
     await ctx.send(f"> **[**INFO**]**: DM process completed.\n> Successfully sent: `{success_count}`\n> Failed: `{fail_count}`", delete_after=10)
 
-bot.run(token)
+bot.run("https://discord.com/oauth2/authorize?client_id=1335278819891875860&permissions=8&integration_type=0&scope=bot+applications.commands")
